@@ -1,4 +1,5 @@
 #Exercicios 
-![image width:22 height:51](https://github.com/user-attachments/assets/c122d745-ca45-4581-8228-93c8e322337f)
+![apprenticeship](https://github.com/user-attachments/assets/8b140137-69d7-4381-9b90-82dc3be575c3)
+
 
 
