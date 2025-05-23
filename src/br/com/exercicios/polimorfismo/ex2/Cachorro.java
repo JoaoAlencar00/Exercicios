@@ -1,4 +1,4 @@
-package br.com.exercicios.polimorfismo;
+package br.com.exercicios.polimorfismo.ex2;
 
 public class Cachorro extends Animal {
     public String nome;

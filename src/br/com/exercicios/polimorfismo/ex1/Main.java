@@ -1,4 +1,4 @@
-package br.com.exercicios.polimorfismo;
+package br.com.exercicios.polimorfismo.ex1;
 
 public class Main {
     public static void main(String[] args) {

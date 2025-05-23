@@ -1,6 +1,6 @@
-package br.com.exercicios.polimorfismo;
+package br.com.exercicios.polimorfismo.ex1;
 
-public class ModeloCarro extends Carro{
+public class ModeloCarro extends Carro {
 
     public ModeloCarro(String nome, double preco1, double preco2, double preco3) {
         setNomeDoModelo("Honda Civic");

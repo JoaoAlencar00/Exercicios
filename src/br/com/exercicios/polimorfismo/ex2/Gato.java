@@ -1,6 +1,6 @@
-package br.com.exercicios.polimorfismo;
+package br.com.exercicios.polimorfismo.ex2;
 
-public class Gato extends Animal{
+public class Gato extends Animal {
     public String nome;
 
     public String getNome() {

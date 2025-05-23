@@ -1,4 +1,4 @@
-package br.com.exercicios.exercios.alura.modelo;
+package br.com.exercicios.polimorfismo.ex3;
 
 public class Main {
     public static void main(String[] args) {
