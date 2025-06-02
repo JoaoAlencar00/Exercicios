@@ -1,4 +1,4 @@
-package br.com.exercicios.interface_praticar;
+package br.com.exercicios.interface_praticar.sistemaPagamento;
 
 import java.util.ArrayList;
 

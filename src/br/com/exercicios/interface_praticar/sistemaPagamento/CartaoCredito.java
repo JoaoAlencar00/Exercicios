@@ -1,4 +1,4 @@
-package br.com.exercicios.interface_praticar;
+package br.com.exercicios.interface_praticar.sistemaPagamento;
 
 public class CartaoCredito implements Pagamento {
     @Override
