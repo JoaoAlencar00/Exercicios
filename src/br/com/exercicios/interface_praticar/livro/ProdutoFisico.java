@@ -1,10 +1,13 @@
 package br.com.exercicios.interface_praticar.livro;
 
-public class ProdutoFisico implements Calculavel{
+public class ProdutoFisico extends Produto implements Calculavel {
 
-    @Override
-    public double calcularPrecoFinal(double valor,double desconto, double taxaAdicional) {
-        return valor + desconto + taxaAdicional;
+    public ProdutoFisico(double preco) {
+        super(preco);
     }
 
+    @Override
+    public double calcularPrecoFinal() {
+        return preco * 1.05;
+    }
 }

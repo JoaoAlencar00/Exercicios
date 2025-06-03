@@ -1,23 +1,21 @@
 package br.com.exercicios.interface_praticar.Vendavel;
 
 public class Servico implements Vendavel{
-    private String nome;
+    private String descricao;
+    private double precoHora;
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    @Override
-    public double precoTotalProduto(double desconto, double quantidadeComprada) {
-        return 0;
+    public Servico(String descricao, double precoHora) {
+        this.descricao = descricao;
+        this.precoHora = precoHora;
     }
 
     @Override
-    public double precoTotalServico(double desconto, double valor) {
-        return valor - desconto;
+    public double calcularPrecoTotal(int quantidade) {
+        return precoHora * quantidade;
+    }
+
+    @Override
+    public void aplicarDesconto(int desconto) {
+        precoHora -= precoHora * (desconto / 100.0);
     }
 }

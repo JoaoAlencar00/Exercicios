@@ -1,9 +1,15 @@
 package br.com.exercicios.interface_praticar.livro;
 
-public class Livro implements Calculavel{
+public class Livro extends Produto implements Calculavel {
+    private String autor;
+
+    public Livro(double preco, String autor) {
+        super(preco);
+        this.autor = autor;
+    }
 
     @Override
-    public double calcularPrecoFinal(double valor, double desconto, double taxaAdicional) {
-        return valor + desconto + taxaAdicional;
+    public double calcularPrecoFinal() {
+        return preco * 0.9;
     }
 }
